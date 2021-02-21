@@ -15,6 +15,8 @@
     }                                                         \
 } while (0)                                                   \
 
+#define fopen_s(pFile,filename,mode) ((*(pFile))=fopen((filename),(mode)))==NULL
+
 typedef eu16 PrintRamAddr;
 typedef eu8(*GetRamFun)(PrintRamAddr);
 

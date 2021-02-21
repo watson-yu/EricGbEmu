@@ -1,6 +1,6 @@
 
 #include "adapter_sdl.h"
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include "cpu.h"
 #include "input.h"
 #include "debug.h"
